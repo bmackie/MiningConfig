@@ -1,0 +1,17 @@
+[Unit]
+Description=Applies overclock
+Requires=core1.service
+Requires=core2.service
+Requires=core3.service
+Requires=core4.service
+Requires=core5.service
+Requires=core6.service
+Requires=core7.service
+Requires=mem2.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/applyoc.sh
+
+[Install]
+WantedBy=default.target

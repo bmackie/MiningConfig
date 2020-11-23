@@ -1,0 +1,9 @@
+[Unit]
+After=network.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/core7.sh
+
+[Install]
+WantedBy=default.target

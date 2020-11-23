@@ -1,0 +1,12 @@
+[Unit]
+Description=Ethereum Mining Daemon
+After=network.target
+[Service]
+User=root
+Group=root
+WorkingDirectory=/home/bdc/phoenixMiner
+Type=simple
+ExecStart=/home/bdc/phoenixMiner/mine.sh
+GuessMainPID=no
+[Install]
+WantedBy=multi-user.target
