@@ -1,0 +1,87 @@
+2020-11-21 16:01:49: <info>                                    _                 
+2020-11-21 16:01:49: <info>  _ __   __ _ _ __   ___  _ __ ___ (_)_ __   ___ _ __ 
+2020-11-21 16:01:49: <info> | '_ \ / _` | '_ \ / _ \| '_ ` _ \| | '_ \ / _ \ '__|
+2020-11-21 16:01:49: <info> | | | | (_| | | | | (_) | | | | | | | | | |  __/ |   
+2020-11-21 16:01:49: <info> |_| |_|\__,_|_| |_|\___/|_| |_| |_|_|_| |_|\___|_|   
+2020-11-21 16:01:49: <info> 
+2020-11-21 16:01:49: <info> Version 1.9.1
+2020-11-21 16:01:49: <info>  Started EthMan server on port 3333 without a password (read-only mode).
+2020-11-21 16:01:49: <info>  Started web interface on port 9090 without a password.
+2020-11-21 16:01:49: <info> Single device detected
+2020-11-21 16:01:49: <info> GPU 0 PCI 01:00.0, Platform: OpenCL, Name: Radeon RX 580 Series (Ellesmere), 8155 MB available
+2020-11-21 16:01:49: <warning>  Ignoring "Kawpow" algorithm in config because it does not specify any devices to run on.
+2020-11-21 16:01:49: <info> -------------------Ethash:------------------
+2020-11-21 16:01:49: <info> Currency: Ethereum
+2020-11-21 16:01:49: <info> Wallet: 0x31454f004F00Ebabc17A91312BCF2D4DdA63d56e
+2020-11-21 16:01:49: <info> Rig name: Grumpy_915c5b79
+2020-11-21 16:01:49: <info> Email was not set.
+2020-11-21 16:01:49: <info> Hashrate threshold to restart miner is not set
+2020-11-21 16:01:49: <info> Added pool: eth-us-east1.nanopool.org:9433
+2020-11-21 16:01:49: <info> Added pool: eth-us-west1.nanopool.org:9433
+2020-11-21 16:01:49: <info> Added pool: eth-eu2.nanopool.org:9433
+2020-11-21 16:01:49: <info> Added pool: eth-eu1.nanopool.org:9433
+2020-11-21 16:01:49: <info> Added pool: eth-jp1.nanopool.org:9433
+2020-11-21 16:01:49: <info> Added pool: eth-au1.nanopool.org:9433
+2020-11-21 16:01:49: <info> Added pool: eth-asia1.nanopool.org:9433
+2020-11-21 16:01:49: <info> Auto pool sorting is enabled
+2020-11-21 16:01:49: <info> Using all GPU devices
+2020-11-21 16:01:49: <info> Memory tweak: 1
+2020-11-21 16:01:49: <info> -------------Common parameters:-------------
+2020-11-21 16:01:49: <info> Log path: ./logs/
+2020-11-21 16:01:49: <info> Log is written to file
+2020-11-21 16:01:49: <info> GPU watchdog is enabled
+2020-11-21 16:01:49: <info> Never calling reboot.sh (always restarting the miner in case of errors). 
+2020-11-21 16:01:49: <info>  Setting up algorithm: Ethash
+2020-11-21 16:01:49: <info>  Connecting to pools...
+2020-11-21 16:01:49: <info> Version 3.1.1 of the miner is available. Changelog:
+2020-11-21 16:01:49: <info> Some bugfixes:
+- Fixed running VerusHash on Windows.
+- Smarter auto update feature behaviour. It now downloads regular package if updating regular package and downloads `cuda11` package if updating `cuda11` package. Use `autoUpdate` option to enable auto update feature.
+2020-11-21 16:01:49: <info> In order to process the update, specify  autoUpdate=true  in config and restart the miner.
+2020-11-21 16:01:49: <info>  Connected to pool: eth-us-east1.nanopool.org:9433 | ping: 115 ms.
+2020-11-21 16:01:49: <warning>  Ethereum: couldn't parse job from pool.
+2020-11-21 16:01:49: <info>  New job from eth-us-east1.nanopool.org:9433 | share difficulty = 10000 MH, epoch 376 (4031 MB)
+2020-11-21 16:01:49: [Statistics] Ethereum - Total speed: 0.000 H/s, Total shares: 0 Rejected: 0, Time: 00:00
+2020-11-21 16:01:49: [Statistics] GPU0 t=34°C fan 33% power 33.12W. Total power: 33.12W
+2020-11-21 16:01:49: <warning>  Hint: launch the miner using root privileges to get a better hashrate.
+2020-11-21 16:01:50: <info>  New job from eth-us-east1.nanopool.org:9433
+2020-11-21 16:01:50: [Statistics] Ethereum - Total speed: 0.000 H/s, Total shares: 0 Rejected: 0, Time: 00:00
+2020-11-21 16:01:50: [Statistics] Ethereum last 10 min - Total: 0.000 H/s.
+2020-11-21 16:01:51: <info>  New job from eth-us-east1.nanopool.org:9433
+2020-11-21 16:01:51: [Statistics] Ethereum - Total speed: 0.000 H/s, Total shares: 0 Rejected: 0, Time: 00:02
+2020-11-21 16:01:51: [Statistics] GPU0 t=35°C fan 33% power 33.09W. Total power: 33.09W
+2020-11-21 16:01:54: <info>  New job from eth-us-east1.nanopool.org:9433
+2020-11-21 16:01:54: [Statistics] Ethereum - Total speed: 0.000 H/s, Total shares: 0 Rejected: 0, Time: 00:05
+2020-11-21 16:01:57: <info>  New job from eth-us-east1.nanopool.org:9433
+2020-11-21 16:01:57: [Statistics] Ethereum - Total speed: 0.000 H/s, Total shares: 0 Rejected: 0, Time: 00:08
+2020-11-21 16:01:57: [Statistics] GPU0 t=46°C fan 34% power 105.23W. Total power: 105.23W
+2020-11-21 16:02:00: <info>  New job from eth-us-east1.nanopool.org:9433
+2020-11-21 16:02:00: [Statistics] Ethereum - Total speed: 0.000 H/s, Total shares: 0 Rejected: 0, Time: 00:11
+2020-11-21 16:02:00: [Statistics] Ethereum last 10 min - Total: 0.000 H/s.
+2020-11-21 16:02:00: <info>  GPU0: 4031 MB DAG generated in 8.46 seconds
+2020-11-21 16:02:01: <info>  New job from eth-us-east1.nanopool.org:9433
+2020-11-21 16:02:01: [Statistics] Ethereum - Some devices are still tuning so hashrate can be lower than expected
+2020-11-21 16:02:01: [Statistics] Ethereum - Total speed: 24.806 MH/s, Total shares: 0 Rejected: 0, Time: 00:12
+2020-11-21 16:02:01: [Statistics] GPU0 t=48°C fan 35% power 120.16W. Total power: 120.16W
+2020-11-21 16:02:02: <info>  New job from eth-us-east1.nanopool.org:9433
+2020-11-21 16:02:02: [Statistics] Ethereum - Some devices are still tuning so hashrate can be lower than expected
+2020-11-21 16:02:02: [Statistics] Ethereum - Total speed: 24.806 MH/s, Total shares: 0 Rejected: 0, Time: 00:12
+2020-11-21 16:02:04: <info>  New job from eth-us-east1.nanopool.org:9433
+2020-11-21 16:02:04: [Statistics] Ethereum - Some devices are still tuning so hashrate can be lower than expected
+2020-11-21 16:02:04: [Statistics] Ethereum - Total speed: 24.769 MH/s, Total shares: 0 Rejected: 0, Time: 00:15
+2020-11-21 16:02:04: [Statistics] GPU0 t=50°C fan 36% power 122.01W. Total power: 122.01W
+2020-11-21 16:02:04: <info>  New job from eth-us-east1.nanopool.org:9433
+2020-11-21 16:02:04: [Statistics] Ethereum - Some devices are still tuning so hashrate can be lower than expected
+2020-11-21 16:02:04: [Statistics] Ethereum - Total speed: 24.769 MH/s, Total shares: 0 Rejected: 0, Time: 00:15
+2020-11-21 16:02:04: [Statistics] Ethereum last 10 min - Total: 24.788 MH/s.
+2020-11-21 16:02:04: <info>  New job from eth-us-east1.nanopool.org:9433
+2020-11-21 16:02:04: [Statistics] Ethereum - Some devices are still tuning so hashrate can be lower than expected
+2020-11-21 16:02:04: [Statistics] Ethereum - Total speed: 24.769 MH/s, Total shares: 0 Rejected: 0, Time: 00:15
+2020-11-21 16:02:04: [Statistics] GPU0 t=49°C fan 36% power 122.05W. Total power: 122.05W
+2020-11-21 16:02:05: <info>  New job from eth-us-east1.nanopool.org:9433
+2020-11-21 16:02:05: [Statistics] Ethereum - Some devices are still tuning so hashrate can be lower than expected
+2020-11-21 16:02:05: [Statistics] Ethereum - Total speed: 24.769 MH/s, Total shares: 0 Rejected: 0, Time: 00:15
+2020-11-21 16:02:08: <info>  New job from eth-us-east1.nanopool.org:9433
+2020-11-21 16:02:08: [Statistics] Ethereum - Some devices are still tuning so hashrate can be lower than expected
+2020-11-21 16:02:08: [Statistics] Ethereum - Total speed: 24.754 MH/s, Total shares: 0 Rejected: 0, Time: 00:18
+2020-11-21 16:02:08: [Statistics] GPU0 t=51°C fan 37% power 122.09W. Total power: 122.09W

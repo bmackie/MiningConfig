@@ -1,0 +1,10 @@
+#!/bin/sh
+sudo sh -c "echo 's 1 600 769' > /sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/pp_od_clk_voltage"
+sudo sh -c "echo 's 2 900 837' > /sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/pp_od_clk_voltage"
+sudo sh -c "echo 's 3 1145 950' > /sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/pp_od_clk_voltage"
+sudo sh -c "echo 's 4 1150 950' > /sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/pp_od_clk_voltage"
+sudo sh -c "echo 's 5 1150 950' > /sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/pp_od_clk_voltage"
+sudo sh -c "echo 's 6 1150 950' > /sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/pp_od_clk_voltage"
+sudo sh -c "echo 's 7 1150 950' > /sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/pp_od_clk_voltage"
+sudo sh -c "echo 'm 2 2065 950' > /sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/pp_od_clk_voltage"
+sudo sh -c "echo 'c' > /sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/pp_od_clk_voltage"

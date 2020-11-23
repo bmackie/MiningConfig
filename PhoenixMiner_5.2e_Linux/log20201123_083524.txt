@@ -1,0 +1,7 @@
+2020.11.23:08:35:24.873: main Phoenix Miner 5.2e Linux/gcc - Release build
+2020.11.23:08:35:24.873: main Cmd line: -pool ssl://eu1.ethermine.org:5555 -pool2 ssl://us1.ethermine.org:5555 -wal 0x31454f004F00Ebabc17A91312BCF2D4DdA63d56e.0x31454f004F00Ebabc17A91312BCF2D4DdA63d56e -cdm 1 -cdmport 0.0.0.0:3335 -rmode 2 
+2020.11.23:08:35:24.912: main Unable to enum CUDA GPUs: no CUDA-capable device is detected
+2020.11.23:08:35:24.959: main OpenCL driver version: 20.40-1147287
+2020.11.23:08:35:24.959: main Unable to use OpenCL device Radeon RX 580 Series (pcie 1) for Ethash mining
+2020.11.23:08:35:24.959: main No avaiable GPUs for mining. Please check your drivers and/or hardware.
+2020.11.23:08:35:24.959: main Exit code: 8

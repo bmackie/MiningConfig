@@ -1,0 +1,32 @@
+2020.11.23:07:43:22.822: main Phoenix Miner 5.2e Linux/gcc - Release build
+2020.11.23:07:43:22.822: main Cmd line: -pool ssl://eu1.ethermine.org:5555 -pool2 ssl://us1.ethermine.org:5555 -wal .0x31454f004F00Ebabc17A91312BCF2D4DdA63d56e.0x31454f004F00Ebabc17A91312BCF2D4DdA63d56e -cdm 1 -cdmport 0.0.0.0:3335 
+2020.11.23:07:43:22.860: main Unable to enum CUDA GPUs: no CUDA-capable device is detected
+2020.11.23:07:43:23.427: main OpenCL driver version: 20.40-1147287
+2020.11.23:07:43:23.427: main Available GPUs for mining:
+2020.11.23:07:43:23.427: main GPU1: Radeon RX 580 Series (pcie 1), OpenCL 1.2, 8 GB VRAM, 36 CUs
+2020.11.23:07:43:23.429: main AMD sysfs monitor initialized
+2020.11.23:07:43:23.429: main Eth: the pool list contains 2 pools (2 from command-line)
+2020.11.23:07:43:23.429: main Eth: primary pool: ssl://eu1.ethermine.org:5555
+2020.11.23:07:43:23.429: main Starting GPU mining
+2020.11.23:07:43:23.429: main GPU1: fan PWM control mode 2, min 0, max 255
+2020.11.23:07:43:23.530: wdog Starting watchdog thread
+2020.11.23:07:43:23.531: main Eth: Connecting to ethash pool ssl://eu1.ethermine.org:5555 (proto: EthProxy)
+2020.11.23:07:43:23.531: main GPU1: 29C 34% 31W
+GPUs power: 31.2 W
+2020.11.23:07:43:23.553: eths Eth: Connected to SSL ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2020.11.23:07:43:23.578: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":[".0x31454f004F00Ebabc17A91312BCF2D4DdA63d56e.0x31454f004F00Ebabc17A91312BCF2D4DdA63d56e"]}
+
+2020.11.23:07:43:23.599: eths Eth: Received: {"id":999,"jsonrpc": "2.0","result": false,"error": "Invalid user provided"}
+2020.11.23:07:43:23.599: eths Pool login failed: Invalid user provided
+2020.11.23:07:43:23.599: eths Eth: Reconnecting in 5 seconds...
+2020.11.23:07:43:23.731: main Listening for CDM remote manager at port 3335 in read-only mode
+2020.11.23:07:43:28.599: unkn Eth: Connecting to ethash pool ssl://eu1.ethermine.org:5555 (proto: EthProxy)
+2020.11.23:07:43:28.608: eths Eth: Connected to SSL ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2020.11.23:07:43:28.633: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":[".0x31454f004F00Ebabc17A91312BCF2D4DdA63d56e.0x31454f004F00Ebabc17A91312BCF2D4DdA63d56e"]}
+
+2020.11.23:07:43:28.654: eths Eth: Received: {"id":999,"jsonrpc": "2.0","result": false,"error": "Invalid user provided"}
+2020.11.23:07:43:28.654: eths Pool login failed: Invalid user provided
+2020.11.23:07:43:28.654: eths Eth: Reconnecting in 5 seconds...
+2020.11.23:07:43:31.405: main Quitting...
+2020.11.23:07:43:31.405: wdog Stopping watchdog thread
+2020.11.23:07:43:31.405: main Exit code: 0

@@ -1,0 +1,17 @@
+OD_SCLK:
+0:        300MHz        750mV
+1:        600MHz        769mV
+2:        900MHz        837mV
+3:       1145MHz       1031mV
+4:       1215MHz       1106mV
+5:       1257MHz       1156mV
+6:       1300MHz       1150mV
+7:       1355MHz       1150mV
+OD_MCLK:
+0:        300MHz        750mV
+1:       1000MHz        800mV
+2:       2050MHz        950mV
+OD_RANGE:
+SCLK:     300MHz       2000MHz
+MCLK:     300MHz       2300MHz
+VDDC:     750mV        1200mV

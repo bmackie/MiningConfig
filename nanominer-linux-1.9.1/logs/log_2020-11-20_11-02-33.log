@@ -1,0 +1,78 @@
+2020-11-20 11:02:33: <info>                                    _                 
+2020-11-20 11:02:33: <info>  _ __   __ _ _ __   ___  _ __ ___ (_)_ __   ___ _ __ 
+2020-11-20 11:02:33: <info> | '_ \ / _` | '_ \ / _ \| '_ ` _ \| | '_ \ / _ \ '__|
+2020-11-20 11:02:33: <info> | | | | (_| | | | | (_) | | | | | | | | | |  __/ |   
+2020-11-20 11:02:33: <info> |_| |_|\__,_|_| |_|\___/|_| |_| |_|_|_| |_|\___|_|   
+2020-11-20 11:02:33: <info> 
+2020-11-20 11:02:33: <info> Version 1.9.1
+2020-11-20 11:02:33: <info>  Started EthMan server on port 9090 with a password.
+2020-11-20 11:02:33: <info>  Started web interface on port 5000 without a password.
+2020-11-20 11:02:33: <info> Single device detected
+2020-11-20 11:02:33: <info> GPU 0 PCI 01:00.0, Platform: OpenCL, Name: Radeon RX 580 Series (Ellesmere), 8041 MB available
+2020-11-20 11:02:33: <info> -------------------Kawpow:------------------
+2020-11-20 11:02:33: <info> Currency: RVM
+2020-11-20 11:02:33: <info> Wallet: RApoGpnQn9GTQiQzJ9KdPzyxtFqZVfXcX9
+2020-11-20 11:02:33: <info> Rig name: Grumpy_915c5b79
+2020-11-20 11:02:33: <info> Email was not set.
+2020-11-20 11:02:33: <info> Hashrate threshold to restart miner is not set
+2020-11-20 11:02:33: <info> Added pool: rvn-us-east1.nanopool.org:12433
+2020-11-20 11:02:33: <info> Added pool: rvn-us-west1.nanopool.org:12433
+2020-11-20 11:02:33: <info> Added pool: rvn-eu2.nanopool.org:12433
+2020-11-20 11:02:33: <info> Added pool: rvn-eu1.nanopool.org:12433
+2020-11-20 11:02:33: <info> Added pool: rvn-jp1.nanopool.org:12433
+2020-11-20 11:02:33: <info> Added pool: rvn-au1.nanopool.org:12433
+2020-11-20 11:02:33: <info> Added pool: rvn-asia1.nanopool.org:12433
+2020-11-20 11:02:33: <info> Auto pool sorting is enabled
+2020-11-20 11:02:33: <info> Using all GPU devices
+2020-11-20 11:02:33: <info> -------------Common parameters:-------------
+2020-11-20 11:02:33: <info> Log path: ./logs/
+2020-11-20 11:02:33: <info> Log is written to file
+2020-11-20 11:02:33: <info> GPU watchdog is enabled
+2020-11-20 11:02:33: <info> Never calling reboot.sh (always restarting the miner in case of errors). 
+2020-11-20 11:02:33: <info>  Setting up algorithm: Kawpow
+2020-11-20 11:02:33: <info>  Connecting to pools...
+2020-11-20 11:02:33: <info>  Connected to pool: rvn-us-east1.nanopool.org:12433 | ping: 119 ms.
+2020-11-20 11:02:33: <info> Version 3.1.0 of the miner is available. Changelog:
+2020-11-20 11:02:33: <info> - Performance improvements of Octopus algorithm (Conflux) on Nvidia GPUs, approximately
+  * +4% on 10xx series,
+  * +18% on 16xx and 20xx series,
+  * +24% on 30xx series.
+- Added initial support for new AMD RX 6800, 6800 XT and 6900 XT GPUs on Ethash and KawPoW algorithms.
+- Added Verushash algorithm for VerusCoin support on CPUs with PCLMUL, AES and AVX hardware instructions supported.
+2020-11-20 11:02:33: <info> In order to process the update, specify  autoUpdate=true  in config and restart the miner.
+2020-11-20 11:02:33: <info>  New job from rvn-us-east1.nanopool.org:12433 | share difficulty = 300 MH, epoch 200 (2623 MB)
+2020-11-20 11:02:33: [Statistics] RVM - Total speed: 0.000 H/s, Total shares: 0 Rejected: 0, Time: 00:00
+2020-11-20 11:02:33: [Statistics] GPU0 t=51°C fan 54% power 33.12W. Total power: 33.12W
+2020-11-20 11:02:35: <info>  New job from rvn-us-east1.nanopool.org:12433
+2020-11-20 11:02:35: [Statistics] RVM - Total speed: 0.000 H/s, Total shares: 0 Rejected: 0, Time: 00:01
+2020-11-20 11:02:35: [Statistics] RVM last 10 min - Total: 0.000 H/s.
+2020-11-20 11:02:45: <info>  GPU0: 2623 MB DAG generated in 9.31 seconds
+2020-11-20 11:02:50: <info>  New job from rvn-us-east1.nanopool.org:12433
+2020-11-20 11:02:50: [Statistics] RVM - Total speed: 11.054 MH/s, Total shares: 0 Rejected: 0, Time: 00:17
+2020-11-20 11:02:50: [Statistics] GPU0 t=63°C fan 57% power 117.01W. Total power: 117.01W
+2020-11-20 11:03:10: <info>  RVM - SHARE FOUND (GPU: 0, nonce: 0xe19905e8108a987e).
+2020-11-20 11:03:10: <info> RVM: share accepted (312 ms)!
+2020-11-20 11:03:15: <info>  New job from rvn-us-east1.nanopool.org:12433
+2020-11-20 11:03:15: [Statistics] RVM - Total speed: 11.719 MH/s, Total shares: 1 Rejected: 0, Time: 00:41
+2020-11-20 11:03:21: <info>  New job from rvn-us-east1.nanopool.org:12433
+2020-11-20 11:03:21: [Statistics] RVM - Total speed: 11.273 MH/s, Total shares: 1 Rejected: 0, Time: 00:47
+2020-11-20 11:03:21: [Statistics] GPU0 t=67°C fan 60% power 117.12W. Total power: 117.12W
+2020-11-20 11:03:25: <info>  RVM - SHARE FOUND (GPU: 0, nonce: 0xe19905f2bf320937).
+2020-11-20 11:03:25: <info> RVM: share accepted (156 ms)!
+2020-11-20 11:03:40: <info>  New job from rvn-us-east1.nanopool.org:12433
+2020-11-20 11:03:40: [Statistics] RVM - Total speed: 11.258 MH/s, Total shares: 2 Rejected: 0, Time: 01:07
+2020-11-20 11:03:40: [Statistics] RVM last 10 min - Total: 11.353 MH/s.
+2020-11-20 11:03:46: <info>  New job from rvn-us-east1.nanopool.org:12433
+2020-11-20 11:03:46: [Statistics] RVM - Total speed: 10.428 MH/s, Total shares: 2 Rejected: 0, Time: 01:13
+2020-11-20 11:03:46: [Statistics] GPU0 t=68°C fan 60% power 115.23W. Total power: 115.23W
+2020-11-20 11:03:52: <info>  New job from rvn-us-east1.nanopool.org:12433
+2020-11-20 11:03:52: [Statistics] RVM - Total speed: 10.384 MH/s, Total shares: 2 Rejected: 0, Time: 01:19
+2020-11-20 11:04:02: <info>  New job from rvn-us-east1.nanopool.org:12433
+2020-11-20 11:04:02: [Statistics] RVM - Total speed: 10.382 MH/s, Total shares: 2 Rejected: 0, Time: 01:28
+2020-11-20 11:04:02: [Statistics] GPU0 t=69°C fan 60% power 115.20W. Total power: 115.20W
+2020-11-20 11:04:07: <info>  New job from rvn-us-east1.nanopool.org:12433
+2020-11-20 11:04:07: [Statistics] RVM - Total speed: 10.382 MH/s, Total shares: 2 Rejected: 0, Time: 01:33
+2020-11-20 11:04:07: [Statistics] RVM last 10 min - Total: 11.060 MH/s.
+2020-11-20 11:04:13: <info>  New job from rvn-us-east1.nanopool.org:12433
+2020-11-20 11:04:13: [Statistics] RVM - Total speed: 10.382 MH/s, Total shares: 2 Rejected: 0, Time: 01:39
+2020-11-20 11:04:13: [Statistics] GPU0 t=70°C fan 60% power 115.17W. Total power: 115.17W

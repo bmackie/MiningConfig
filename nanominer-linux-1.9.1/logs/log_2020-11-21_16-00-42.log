@@ -1,0 +1,36 @@
+2020-11-21 16:00:42: <info>                                    _                 
+2020-11-21 16:00:42: <info>  _ __   __ _ _ __   ___  _ __ ___ (_)_ __   ___ _ __ 
+2020-11-21 16:00:42: <info> | '_ \ / _` | '_ \ / _ \| '_ ` _ \| | '_ \ / _ \ '__|
+2020-11-21 16:00:42: <info> | | | | (_| | | | | (_) | | | | | | | | | |  __/ |   
+2020-11-21 16:00:42: <info> |_| |_|\__,_|_| |_|\___/|_| |_| |_|_|_| |_|\___|_|   
+2020-11-21 16:00:42: <info> 
+2020-11-21 16:00:42: <info> Version 1.9.1
+2020-11-21 16:00:42: <info>  Started EthMan server on port 3333 without a password (read-only mode).
+2020-11-21 16:00:42: <info>  Started web interface on port 9090 without a password.
+2020-11-21 16:00:42: <info> Single device detected
+2020-11-21 16:00:42: <info> GPU 0 PCI 01:00.0, Platform: OpenCL, Name: Radeon RX 580 Series (Ellesmere), 8155 MB available
+2020-11-21 16:00:42: <warning>  Ignoring "Kawpow" algorithm in config because it does not specify any devices to run on.
+2020-11-21 16:00:42: <info> -------------------Ethash:------------------
+2020-11-21 16:00:42: <info> Currency: Ethereum
+2020-11-21 16:00:42: <info> Wallet: 0x31454f004F00Ebabc17A91312BCF2D4DdA63d56e
+2020-11-21 16:00:42: <info> Rig name: 0x31454f004F00Ebabc17A91312BCF2D4DdA63d56e
+2020-11-21 16:00:42: <info> Email was not set.
+2020-11-21 16:00:42: <info> Hashrate threshold to restart miner is not set
+2020-11-21 16:00:42: <info> Added pool: eu1.ethermine.org:4444
+2020-11-21 16:00:42: <info> Auto pool sorting is disabled
+2020-11-21 16:00:42: <info> Using all GPU devices
+2020-11-21 16:00:42: <info> Memory tweak: 1
+2020-11-21 16:00:42: <info> -------------Common parameters:-------------
+2020-11-21 16:00:42: <info> Log path: ./logs/
+2020-11-21 16:00:42: <info> Log is written to file
+2020-11-21 16:00:42: <info> GPU watchdog is enabled
+2020-11-21 16:00:42: <info> Never calling reboot.sh (always restarting the miner in case of errors). 
+2020-11-21 16:00:42: <info>  Setting up algorithm: Ethash
+2020-11-21 16:00:42: <info>  Connecting to pools...
+2020-11-21 16:00:42: <info>  Connected to pool: eu1.ethermine.org:4444
+2020-11-21 16:00:42: <info> Version 3.1.1 of the miner is available. Changelog:
+2020-11-21 16:00:42: <info> Some bugfixes:
+- Fixed running VerusHash on Windows.
+- Smarter auto update feature behaviour. It now downloads regular package if updating regular package and downloads `cuda11` package if updating `cuda11` package. Use `autoUpdate` option to enable auto update feature.
+2020-11-21 16:00:42: <info> In order to process the update, specify  autoUpdate=true  in config and restart the miner.
+2020-11-21 16:00:42: <warning>  Ethereum: couldn't parse job from pool.

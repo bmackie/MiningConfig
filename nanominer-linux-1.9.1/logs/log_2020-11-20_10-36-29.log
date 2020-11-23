@@ -1,0 +1,61 @@
+2020-11-20 10:36:29: <info>                                    _                 
+2020-11-20 10:36:29: <info>  _ __   __ _ _ __   ___  _ __ ___ (_)_ __   ___ _ __ 
+2020-11-20 10:36:29: <info> | '_ \ / _` | '_ \ / _ \| '_ ` _ \| | '_ \ / _ \ '__|
+2020-11-20 10:36:29: <info> | | | | (_| | | | | (_) | | | | | | | | | |  __/ |   
+2020-11-20 10:36:29: <info> |_| |_|\__,_|_| |_|\___/|_| |_| |_|_|_| |_|\___|_|   
+2020-11-20 10:36:29: <info> 
+2020-11-20 10:36:29: <info> Version 1.9.1
+2020-11-20 10:36:29: <info>  Started EthMan server on port 3333 without a password (read-only mode).
+2020-11-20 10:36:29: <info>  Started web interface on port 9090 without a password.
+2020-11-20 10:36:30: <info> Single device detected
+2020-11-20 10:36:30: <info> GPU 0 PCI 01:00.0, Platform: OpenCL, Name: Radeon RX 580 Series (Ellesmere), 8041 MB available
+2020-11-20 10:36:30: <info> -------------------Ethash:------------------
+2020-11-20 10:36:30: <info> Currency: Ethereum
+2020-11-20 10:36:30: <info> Wallet: 0x52bc44d5378309ee2abf1539bf71de1b7d7be3b5
+2020-11-20 10:36:30: <info> Rig name: Grumpy_915c5b79
+2020-11-20 10:36:30: <info> Email was not set.
+2020-11-20 10:36:30: <info> Hashrate threshold to restart miner is not set
+2020-11-20 10:36:30: <info> Added pool: eth-us-east1.nanopool.org:9433
+2020-11-20 10:36:30: <info> Added pool: eth-us-west1.nanopool.org:9433
+2020-11-20 10:36:30: <info> Added pool: eth-eu2.nanopool.org:9433
+2020-11-20 10:36:30: <info> Added pool: eth-eu1.nanopool.org:9433
+2020-11-20 10:36:30: <info> Added pool: eth-jp1.nanopool.org:9433
+2020-11-20 10:36:30: <info> Added pool: eth-au1.nanopool.org:9433
+2020-11-20 10:36:30: <info> Added pool: eth-asia1.nanopool.org:9433
+2020-11-20 10:36:30: <info> Auto pool sorting is enabled
+2020-11-20 10:36:30: <info> Using all GPU devices
+2020-11-20 10:36:30: <info> Memory tweak: 1
+2020-11-20 10:36:30: <info> -------------Common parameters:-------------
+2020-11-20 10:36:30: <info> Log path: ./logs/
+2020-11-20 10:36:30: <info> Log is written to file
+2020-11-20 10:36:30: <info> GPU watchdog is enabled
+2020-11-20 10:36:30: <info> Never calling reboot.sh (always restarting the miner in case of errors). 
+2020-11-20 10:36:30: <info>  Setting up algorithm: Ethash
+2020-11-20 10:36:30: <warning>  You are mining to a default wallet! Change it to yours!
+2020-11-20 10:36:30: <warning>  You are mining to a default wallet! Change it to yours!
+2020-11-20 10:36:30: <warning>  You are mining to a default wallet! Change it to yours!
+2020-11-20 10:36:30: <warning>  You are mining to a default wallet! Change it to yours!
+2020-11-20 10:36:30: <warning>  You are mining to a default wallet! Change it to yours!
+2020-11-20 10:36:30: <warning>  You are mining to a default wallet! Change it to yours!
+2020-11-20 10:36:30: <warning>  You are mining to a default wallet! Change it to yours!
+2020-11-20 10:36:30: <warning>  You are mining to a default wallet! Change it to yours!
+2020-11-20 10:36:30: <warning>  You are mining to a default wallet! Change it to yours!
+2020-11-20 10:36:30: <warning>  You are mining to a default wallet! Change it to yours!
+2020-11-20 10:36:30: <info>  Connecting to pools...
+2020-11-20 10:36:30: <info> Version 3.1.0 of the miner is available. Changelog:
+2020-11-20 10:36:30: <info> - Performance improvements of Octopus algorithm (Conflux) on Nvidia GPUs, approximately
+  * +4% on 10xx series,
+  * +18% on 16xx and 20xx series,
+  * +24% on 30xx series.
+- Added initial support for new AMD RX 6800, 6800 XT and 6900 XT GPUs on Ethash and KawPoW algorithms.
+- Added Verushash algorithm for VerusCoin support on CPUs with PCLMUL, AES and AVX hardware instructions supported.
+2020-11-20 10:36:30: <info> In order to process the update, specify  autoUpdate=true  in config and restart the miner.
+2020-11-20 10:36:30: <info>  Connected to pool: eth-us-east1.nanopool.org:9433 | ping: 125 ms.
+2020-11-20 10:36:30: <warning>  Ethereum: couldn't parse job from pool.
+2020-11-20 10:36:30: <info>  New job from eth-us-east1.nanopool.org:9433 | share difficulty = 10000 MH, epoch 376 (4031 MB)
+2020-11-20 10:36:30: [Statistics] Ethereum - Total speed: 0.000 H/s, Total shares: 0 Rejected: 0, Time: 00:00
+2020-11-20 10:36:30: [Statistics] GPU0 t=33°C fan 33% power 33.11W. Total power: 33.11W
+2020-11-20 10:36:30: <warning>  Hint: launch the miner using root privileges to get a better hashrate.
+2020-11-20 10:36:30: <info>  New job from eth-us-east1.nanopool.org:9433
+2020-11-20 10:36:30: [Statistics] Ethereum - Total speed: 0.000 H/s, Total shares: 0 Rejected: 0, Time: 00:00
+2020-11-20 10:36:30: [Statistics] Ethereum last 10 min - Total: 0.000 H/s.

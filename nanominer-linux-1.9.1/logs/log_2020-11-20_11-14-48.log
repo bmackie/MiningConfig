@@ -1,0 +1,120 @@
+2020-11-20 11:14:48: <info>                                    _                 
+2020-11-20 11:14:48: <info>  _ __   __ _ _ __   ___  _ __ ___ (_)_ __   ___ _ __ 
+2020-11-20 11:14:48: <info> | '_ \ / _` | '_ \ / _ \| '_ ` _ \| | '_ \ / _ \ '__|
+2020-11-20 11:14:48: <info> | | | | (_| | | | | (_) | | | | | | | | | |  __/ |   
+2020-11-20 11:14:48: <info> |_| |_|\__,_|_| |_|\___/|_| |_| |_|_|_| |_|\___|_|   
+2020-11-20 11:14:48: <info> 
+2020-11-20 11:14:48: <info> Version 1.9.1
+2020-11-20 11:14:48: <info>  Started EthMan server on port 3333 without a password (read-only mode).
+2020-11-20 11:14:48: <info>  Started web interface on port 9090 without a password.
+2020-11-20 11:14:48: <info> Single device detected
+2020-11-20 11:14:48: <info> GPU 0 PCI 01:00.0, Platform: OpenCL, Name: Radeon RX 580 Series (Ellesmere), 8041 MB available
+2020-11-20 11:14:48: <info> -------------------Kawpow:------------------
+2020-11-20 11:14:48: <info> Currency: RVM
+2020-11-20 11:14:48: <info> Wallet: RApoGpnQn9GTQiQzJ9KdPzyxtFqZVfXcX9
+2020-11-20 11:14:48: <info> Rig name: Grumpy_915c5b79
+2020-11-20 11:14:48: <info> Email was not set.
+2020-11-20 11:14:48: <info> Hashrate threshold to restart miner is not set
+2020-11-20 11:14:48: <info> Added pool: rvn-us-east1.nanopool.org:12433
+2020-11-20 11:14:48: <info> Added pool: rvn-us-west1.nanopool.org:12433
+2020-11-20 11:14:48: <info> Added pool: rvn-eu1.nanopool.org:12433
+2020-11-20 11:14:48: <info> Added pool: rvn-eu2.nanopool.org:12433
+2020-11-20 11:14:48: <info> Added pool: rvn-jp1.nanopool.org:12433
+2020-11-20 11:14:48: <info> Added pool: rvn-au1.nanopool.org:12433
+2020-11-20 11:14:48: <info> Added pool: rvn-asia1.nanopool.org:12433
+2020-11-20 11:14:48: <info> Auto pool sorting is enabled
+2020-11-20 11:14:48: <info> Using all GPU devices
+2020-11-20 11:14:48: <info> -------------Common parameters:-------------
+2020-11-20 11:14:48: <info> Log path: ./logs/
+2020-11-20 11:14:48: <info> Log is written to file
+2020-11-20 11:14:48: <info> GPU watchdog is enabled
+2020-11-20 11:14:48: <info> Never calling reboot.sh (always restarting the miner in case of errors). 
+2020-11-20 11:14:48: <info>  Setting up algorithm: Kawpow
+2020-11-20 11:14:48: <info>  Connecting to pools...
+2020-11-20 11:14:48: <info> Version 3.1.0 of the miner is available. Changelog:
+2020-11-20 11:14:48: <info> - Performance improvements of Octopus algorithm (Conflux) on Nvidia GPUs, approximately
+  * +4% on 10xx series,
+  * +18% on 16xx and 20xx series,
+  * +24% on 30xx series.
+- Added initial support for new AMD RX 6800, 6800 XT and 6900 XT GPUs on Ethash and KawPoW algorithms.
+- Added Verushash algorithm for VerusCoin support on CPUs with PCLMUL, AES and AVX hardware instructions supported.
+2020-11-20 11:14:48: <info> In order to process the update, specify  autoUpdate=true  in config and restart the miner.
+2020-11-20 11:14:48: <info>  Connected to pool: rvn-us-east1.nanopool.org:12433 | ping: 129 ms.
+2020-11-20 11:14:49: <info>  New job from rvn-us-east1.nanopool.org:12433 | share difficulty = 300 MH, epoch 200 (2623 MB)
+2020-11-20 11:14:49: [Statistics] RVM - Total speed: 0.000 H/s, Total shares: 0 Rejected: 0, Time: 00:00
+2020-11-20 11:14:49: [Statistics] GPU0 t=55°C fan 56% power 33.12W. Total power: 33.12W
+2020-11-20 11:14:53: <info>  New job from rvn-us-east1.nanopool.org:12433
+2020-11-20 11:14:53: [Statistics] RVM - Total speed: 0.000 H/s, Total shares: 0 Rejected: 0, Time: 00:04
+2020-11-20 11:14:53: [Statistics] RVM last 10 min - Total: 0.000 H/s.
+2020-11-20 11:15:00: <info>  GPU0: 2623 MB DAG generated in 9.31 seconds
+2020-11-20 11:15:06: <info>  New job from rvn-us-east1.nanopool.org:12433
+2020-11-20 11:15:06: [Statistics] RVM - Total speed: 10.668 MH/s, Total shares: 0 Rejected: 0, Time: 00:17
+2020-11-20 11:15:06: [Statistics] GPU0 t=66°C fan 60% power 116.18W. Total power: 116.18W
+2020-11-20 11:15:36: <info>  New job from rvn-us-east1.nanopool.org:12433
+2020-11-20 11:15:36: [Statistics] RVM - Total speed: 10.806 MH/s, Total shares: 0 Rejected: 0, Time: 00:48
+2020-11-20 11:15:43: <info>  RVM - SHARE FOUND (GPU: 0, nonce: 0x7aa1f9c4ebcf27ed).
+2020-11-20 11:15:43: <info> RVM: share accepted (127 ms)!
+2020-11-20 11:15:48: <info>  New job from rvn-us-east1.nanopool.org:12433
+2020-11-20 11:15:48: [Statistics] RVM - Total speed: 10.784 MH/s, Total shares: 1 Rejected: 0, Time: 01:00
+2020-11-20 11:15:48: [Statistics] GPU0 t=69°C fan 60% power 116.23W. Total power: 116.23W
+2020-11-20 11:16:04: <info>  RVM - SHARE FOUND (GPU: 0, nonce: 0x7aa1f9b0c5bd3f33).
+2020-11-20 11:16:04: <info> RVM: share accepted (134 ms)!
+2020-11-20 11:16:18: <info>  New job from rvn-us-east1.nanopool.org:12433
+2020-11-20 11:16:18: [Statistics] RVM - Total speed: 10.806 MH/s, Total shares: 2 Rejected: 0, Time: 01:30
+2020-11-20 11:16:18: [Statistics] RVM last 10 min - Total: 10.771 MH/s.
+2020-11-20 11:16:32: <info>  RVM - SHARE FOUND (GPU: 0, nonce: 0x7aa1f9014569f458).
+2020-11-20 11:16:32: <info> RVM: share accepted (136 ms)!
+2020-11-20 11:16:47: <info>  RVM - SHARE FOUND (GPU: 0, nonce: 0x7aa1f9014eb882d1).
+2020-11-20 11:16:47: <info> RVM: share accepted (127 ms)!
+2020-11-20 11:16:48: <info>  New job from rvn-us-east1.nanopool.org:12433
+2020-11-20 11:16:48: [Statistics] RVM - Total speed: 10.806 MH/s, Total shares: 4 Rejected: 0, Time: 02:00
+2020-11-20 11:16:48: [Statistics] GPU0 t=71°C fan 57% power 117.04W. Total power: 117.04W
+2020-11-20 11:16:50: <info>  RVM - SHARE FOUND (GPU: 0, nonce: 0x7aa1f908dd96d1ec).
+2020-11-20 11:16:50: <info> RVM: share accepted (130 ms)!
+2020-11-20 11:16:53: <info>  New job from rvn-us-east1.nanopool.org:12433
+2020-11-20 11:16:53: [Statistics] RVM - Total speed: 10.806 MH/s, Total shares: 5 Rejected: 0, Time: 02:05
+2020-11-20 11:16:58: <info>  New job from rvn-us-east1.nanopool.org:12433
+2020-11-20 11:16:58: [Statistics] RVM - Total speed: 10.806 MH/s, Total shares: 5 Rejected: 0, Time: 02:10
+2020-11-20 11:16:58: [Statistics] GPU0 t=72°C fan 57% power 116.25W. Total power: 116.25W
+2020-11-20 11:17:04: <info>  RVM - SHARE FOUND (GPU: 0, nonce: 0x7aa1f99cf1f68490).
+2020-11-20 11:17:04: <info> RVM: share accepted (127 ms)!
+2020-11-20 11:17:07: <info>  RVM - SHARE FOUND (GPU: 0, nonce: 0x7aa1f99cf3f11df5).
+2020-11-20 11:17:07: <info> RVM: share accepted (140 ms)!
+2020-11-20 11:17:09: <info>  New job from rvn-us-east1.nanopool.org:12433
+2020-11-20 11:17:09: [Statistics] RVM - Total speed: 11.726 MH/s, Total shares: 7 Rejected: 0, Time: 02:21
+2020-11-20 11:17:09: [Statistics] RVM last 10 min - Total: 10.826 MH/s.
+2020-11-20 11:17:13: <info>  RVM - SHARE FOUND (GPU: 0, nonce: 0x7aa1f93c2816d00d).
+2020-11-20 11:17:13: <info> RVM: share accepted (130 ms)!
+2020-11-20 11:17:19: <info>  RVM - SHARE FOUND (GPU: 0, nonce: 0x7aa1f93c2cdea4f0).
+2020-11-20 11:17:19: <info> RVM: share accepted (134 ms)!
+2020-11-20 11:17:39: <info>  New job from rvn-us-east1.nanopool.org:12433
+2020-11-20 11:17:39: [Statistics] RVM - Total speed: 11.553 MH/s, Total shares: 9 Rejected: 0, Time: 02:51
+2020-11-20 11:17:39: [Statistics] GPU0 t=73°C fan 57% power 121.10W. Total power: 121.10W
+2020-11-20 11:17:41: <info>  New job from rvn-us-east1.nanopool.org:12433
+2020-11-20 11:17:41: [Statistics] RVM - Total speed: 11.673 MH/s, Total shares: 9 Rejected: 0, Time: 02:53
+2020-11-20 11:17:47: <info>  New job from rvn-us-east1.nanopool.org:12433
+2020-11-20 11:17:47: [Statistics] RVM - Total speed: 11.726 MH/s, Total shares: 9 Rejected: 0, Time: 02:59
+2020-11-20 11:17:47: [Statistics] GPU0 t=74°C fan 57% power 121.13W. Total power: 121.13W
+2020-11-20 11:17:48: <info>  RVM - SHARE FOUND (GPU: 0, nonce: 0x7aa1f96790fa6b69).
+2020-11-20 11:17:48: <info> RVM: share accepted (146 ms)!
+2020-11-20 11:18:00: <info>  RVM - SHARE FOUND (GPU: 0, nonce: 0x7aa1f96799a121dc).
+2020-11-20 11:18:00: <info> RVM: share accepted (128 ms)!
+2020-11-20 11:18:14: <info>  RVM - SHARE FOUND (GPU: 0, nonce: 0x7aa1f967a34ce0a0).
+2020-11-20 11:18:14: <info> RVM: share accepted (134 ms)!
+2020-11-20 11:18:14: <info>  New job from rvn-us-east1.nanopool.org:12433
+2020-11-20 11:18:14: [Statistics] RVM - Total speed: 11.728 MH/s, Total shares: 12 Rejected: 0, Time: 03:26
+2020-11-20 11:18:14: [Statistics] RVM last 10 min - Total: 11.122 MH/s.
+2020-11-20 11:18:16: <info>  RVM - SHARE FOUND (GPU: 0, nonce: 0x7aa1f96401ed9a45).
+2020-11-20 11:18:16: <info> RVM: share accepted (134 ms)!
+2020-11-20 11:18:41: <info>  New job from rvn-us-east1.nanopool.org:12433
+2020-11-20 11:18:41: [Statistics] RVM - Total speed: 11.728 MH/s, Total shares: 13 Rejected: 0, Time: 03:52
+2020-11-20 11:18:41: [Statistics] GPU0 t=74°C fan 58% power 121.21W. Total power: 121.21W
+2020-11-20 11:18:47: <info>  New job from rvn-us-east1.nanopool.org:12433
+2020-11-20 11:18:47: [Statistics] RVM - Total speed: 11.728 MH/s, Total shares: 13 Rejected: 0, Time: 03:58
+2020-11-20 11:18:52: <info>  RVM - SHARE FOUND (GPU: 0, nonce: 0x7aa1f9ec4fe8c711).
+2020-11-20 11:18:52: <info> RVM: share accepted (128 ms)!
+2020-11-20 11:18:53: <info>  RVM - SHARE FOUND (GPU: 0, nonce: 0x7aa1f9ec50eaa6e8).
+2020-11-20 11:18:54: <info> RVM: share accepted (129 ms)!
+2020-11-20 11:19:06: <info>  New job from rvn-us-east1.nanopool.org:12433
+2020-11-20 11:19:06: [Statistics] RVM - Total speed: 11.728 MH/s, Total shares: 15 Rejected: 0, Time: 04:17
+2020-11-20 11:19:06: [Statistics] GPU0 t=75°C fan 60% power 121.21W. Total power: 121.21W

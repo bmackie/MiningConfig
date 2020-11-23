@@ -1,0 +1,45 @@
+2020-11-21 15:01:12: <info>                                    _                 
+2020-11-21 15:01:12: <info>  _ __   __ _ _ __   ___  _ __ ___ (_)_ __   ___ _ __ 
+2020-11-21 15:01:12: <info> | '_ \ / _` | '_ \ / _ \| '_ ` _ \| | '_ \ / _ \ '__|
+2020-11-21 15:01:12: <info> | | | | (_| | | | | (_) | | | | | | | | | |  __/ |   
+2020-11-21 15:01:12: <info> |_| |_|\__,_|_| |_|\___/|_| |_| |_|_|_| |_|\___|_|   
+2020-11-21 15:01:12: <info> 
+2020-11-21 15:01:12: <info> Version 1.9.1
+2020-11-21 15:01:12: <info>  Started EthMan server on port 3334 without a password.
+2020-11-21 15:01:12: <info>  Started web interface on port 9090 without a password.
+2020-11-21 15:01:12: <info> Single device detected
+2020-11-21 15:01:12: <info> GPU 0 PCI 01:00.0, Platform: OpenCL, Name: Radeon RX 580 Series (Ellesmere), 8041 MB available
+2020-11-21 15:01:12: <info> -------------------Kawpow:------------------
+2020-11-21 15:01:12: <info> Currency: RVM
+2020-11-21 15:01:12: <info> Wallet: RApoGpnQn9GTQiQzJ9KdPzyxtFqZVfXcX9
+2020-11-21 15:01:12: <info> Rig name: Grumpy_915c5b79
+2020-11-21 15:01:12: <info> Email was not set.
+2020-11-21 15:01:12: <info> Hashrate threshold to restart miner is not set
+2020-11-21 15:01:12: <info> Added pool: rvn-us-east1.nanopool.org:12433
+2020-11-21 15:01:12: <info> Added pool: rvn-us-west1.nanopool.org:12433
+2020-11-21 15:01:12: <info> Added pool: rvn-eu2.nanopool.org:12433
+2020-11-21 15:01:12: <info> Added pool: rvn-eu1.nanopool.org:12433
+2020-11-21 15:01:12: <info> Added pool: rvn-jp1.nanopool.org:12433
+2020-11-21 15:01:12: <info> Added pool: rvn-au1.nanopool.org:12433
+2020-11-21 15:01:12: <info> Added pool: rvn-asia1.nanopool.org:12433
+2020-11-21 15:01:12: <info> Auto pool sorting is enabled
+2020-11-21 15:01:12: <info> Using all GPU devices
+2020-11-21 15:01:12: <info> -------------Common parameters:-------------
+2020-11-21 15:01:12: <info> Log path: ./logs/
+2020-11-21 15:01:12: <info> Log is written to file
+2020-11-21 15:01:12: <info> GPU watchdog is enabled
+2020-11-21 15:01:12: <info> Never calling reboot.sh (always restarting the miner in case of errors). 
+2020-11-21 15:01:12: <info>  Setting up algorithm: Kawpow
+2020-11-21 15:01:13: <info>  Connecting to pools...
+2020-11-21 15:01:13: <info> Version 3.1.1 of the miner is available. Changelog:
+2020-11-21 15:01:13: <info> Some bugfixes:
+- Fixed running VerusHash on Windows.
+- Smarter auto update feature behaviour. It now downloads regular package if updating regular package and downloads `cuda11` package if updating `cuda11` package. Use `autoUpdate` option to enable auto update feature.
+2020-11-21 15:01:13: <info> In order to process the update, specify  autoUpdate=true  in config and restart the miner.
+2020-11-21 15:01:13: <info>  Connected to pool: rvn-us-east1.nanopool.org:12433 | ping: 128 ms.
+2020-11-21 15:01:13: <info>  New job from rvn-us-east1.nanopool.org:12433 | share difficulty = 300 MH, epoch 200 (2623 MB)
+2020-11-21 15:01:13: [Statistics] RVM - Total speed: 0.000 H/s, Total shares: 0 Rejected: 0, Time: 00:00
+2020-11-21 15:01:13: [Statistics] GPU0 t=35°C fan 33% power 32.16W. Total power: 32.16W
+2020-11-21 15:01:19: <info>  New job from rvn-us-east1.nanopool.org:12433
+2020-11-21 15:01:19: [Statistics] RVM - Total speed: 0.000 H/s, Total shares: 0 Rejected: 0, Time: 00:06
+2020-11-21 15:01:19: [Statistics] RVM last 10 min - Total: 0.000 H/s.

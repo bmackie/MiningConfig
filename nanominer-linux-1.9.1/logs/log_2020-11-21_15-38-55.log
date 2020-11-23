@@ -1,0 +1,31 @@
+2020-11-21 15:38:55: <info>                                    _                 
+2020-11-21 15:38:55: <info>  _ __   __ _ _ __   ___  _ __ ___ (_)_ __   ___ _ __ 
+2020-11-21 15:38:55: <info> | '_ \ / _` | '_ \ / _ \| '_ ` _ \| | '_ \ / _ \ '__|
+2020-11-21 15:38:55: <info> | | | | (_| | | | | (_) | | | | | | | | | |  __/ |   
+2020-11-21 15:38:55: <info> |_| |_|\__,_|_| |_|\___/|_| |_| |_|_|_| |_|\___|_|   
+2020-11-21 15:38:55: <info> 
+2020-11-21 15:38:55: <info> Version 1.9.1
+2020-11-21 15:38:55: <info>  Started EthMan server on port 3334 without a password.
+2020-11-21 15:38:55: <info>  Started web interface on port 9090 without a password.
+2020-11-21 15:38:55: <info> Detected 0 devices
+2020-11-21 15:38:55: <info> -------------------Kawpow:------------------
+2020-11-21 15:38:55: <info> Currency: RVM
+2020-11-21 15:38:55: <info> Wallet: RApoGpnQn9GTQiQzJ9KdPzyxtFqZVfXcX9
+2020-11-21 15:38:55: <info> Rig name: Sneezy_5b22d5f3
+2020-11-21 15:38:55: <info> Email was not set.
+2020-11-21 15:38:55: <info> Hashrate threshold to restart miner is not set
+2020-11-21 15:38:55: <info> Added pool: rvn-us-east1.nanopool.org:12433
+2020-11-21 15:38:55: <info> Added pool: rvn-us-west1.nanopool.org:12433
+2020-11-21 15:38:55: <info> Added pool: rvn-eu2.nanopool.org:12433
+2020-11-21 15:38:55: <info> Added pool: rvn-eu1.nanopool.org:12433
+2020-11-21 15:38:55: <info> Added pool: rvn-jp1.nanopool.org:12433
+2020-11-21 15:38:55: <info> Added pool: rvn-au1.nanopool.org:12433
+2020-11-21 15:38:55: <info> Added pool: rvn-asia1.nanopool.org:12433
+2020-11-21 15:38:55: <info> Auto pool sorting is enabled
+2020-11-21 15:38:55: <info> -------------Common parameters:-------------
+2020-11-21 15:38:55: <info> Log path: ./logs/
+2020-11-21 15:38:55: <info> Log is written to file
+2020-11-21 15:38:55: <info> GPU watchdog is enabled
+2020-11-21 15:38:55: <info> Never calling reboot.sh (always restarting the miner in case of errors). 
+2020-11-21 15:38:55: <info>  Setting up algorithm: Kawpow
+2020-11-21 15:38:55: <info>  No GPU devices were detected, exiting.

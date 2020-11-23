@@ -1,0 +1,152 @@
+2020-11-21 15:54:29: <info>                                    _                 
+2020-11-21 15:54:29: <info>  _ __   __ _ _ __   ___  _ __ ___ (_)_ __   ___ _ __ 
+2020-11-21 15:54:29: <info> | '_ \ / _` | '_ \ / _ \| '_ ` _ \| | '_ \ / _ \ '__|
+2020-11-21 15:54:29: <info> | | | | (_| | | | | (_) | | | | | | | | | |  __/ |   
+2020-11-21 15:54:29: <info> |_| |_|\__,_|_| |_|\___/|_| |_| |_|_|_| |_|\___|_|   
+2020-11-21 15:54:29: <info> 
+2020-11-21 15:54:29: <info> Version 1.9.1
+2020-11-21 15:54:29: <info>  Started EthMan server on port 3333 without a password (read-only mode).
+2020-11-21 15:54:29: <info>  Started web interface on port 9090 without a password.
+2020-11-21 15:54:29: <info> Single device detected
+2020-11-21 15:54:29: <info> GPU 0 PCI 01:00.0, Platform: OpenCL, Name: Radeon RX 580 Series (Ellesmere), 8155 MB available
+2020-11-21 15:54:29: <warning>  Ignoring "Kawpow" algorithm in config because it does not specify any devices to run on.
+2020-11-21 15:54:29: <info> -------------------Ethash:------------------
+2020-11-21 15:54:29: <info> Currency: Ethereum
+2020-11-21 15:54:29: <info> Wallet: 0x31454f004F00Ebabc17A91312BCF2D4DdA63d56e
+2020-11-21 15:54:29: <info> Rig name: 0x31454f004F00Ebabc17A91312BCF2D4DdA63d56e
+2020-11-21 15:54:29: <info> Email was not set.
+2020-11-21 15:54:29: <info> Hashrate threshold to restart miner is not set
+2020-11-21 15:54:29: <info> Added pool: eu1.ethermine.org:4444
+2020-11-21 15:54:29: <info> Auto pool sorting is disabled
+2020-11-21 15:54:29: <info> Using all GPU devices
+2020-11-21 15:54:29: <info> Memory tweak: 1
+2020-11-21 15:54:29: <info> -------------Common parameters:-------------
+2020-11-21 15:54:29: <info> Log path: ./logs/
+2020-11-21 15:54:29: <info> Log is written to file
+2020-11-21 15:54:29: <info> GPU watchdog is enabled
+2020-11-21 15:54:29: <info> Never calling reboot.sh (always restarting the miner in case of errors). 
+2020-11-21 15:54:29: <info>  Setting up algorithm: Ethash
+2020-11-21 15:54:29: <info>  Connecting to pools...
+2020-11-21 15:54:29: <info> Version 3.1.1 of the miner is available. Changelog:
+2020-11-21 15:54:29: <info> Some bugfixes:
+- Fixed running VerusHash on Windows.
+- Smarter auto update feature behaviour. It now downloads regular package if updating regular package and downloads `cuda11` package if updating `cuda11` package. Use `autoUpdate` option to enable auto update feature.
+2020-11-21 15:54:29: <info> In order to process the update, specify  autoUpdate=true  in config and restart the miner.
+2020-11-21 15:54:29: <info>  Connected to pool: eu1.ethermine.org:4444
+2020-11-21 15:54:29: <warning>  Ethereum: couldn't parse job from pool.
+2020-11-21 15:54:39: <info>  New job from eu1.ethermine.org:4444 | share difficulty = 4 GH, epoch 376 (4031 MB)
+2020-11-21 15:54:39: [Statistics] Ethereum - Total speed: 0.000 H/s, Total shares: 0 Rejected: 0, Time: 00:10
+2020-11-21 15:54:39: [Statistics] GPU0 t=33°C fan 33% power 33.02W. Total power: 33.02W
+2020-11-21 15:54:39: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:54:41: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:54:45: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:54:49: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:54:50: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:54:50: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:54:54: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:54:58: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:54:58: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:55:02: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:55:06: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:55:10: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:55:14: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:55:18: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:55:22: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:55:26: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:55:30: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:55:32: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:55:33: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:55:37: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:55:41: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:55:41: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:55:41: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:55:45: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:55:49: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:55:49: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:55:52: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:55:53: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:55:57: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:56:01: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:56:05: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:56:06: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:56:06: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:56:10: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:56:14: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:56:15: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:56:15: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:56:18: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:56:18: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:56:21: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:56:21: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:56:25: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:56:29: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:56:33: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:56:36: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:56:36: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:56:40: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:56:44: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:56:46: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:56:47: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:56:51: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:56:51: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:56:51: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:56:55: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:56:59: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:57:03: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:57:03: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:57:05: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:57:05: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:57:09: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:57:13: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:57:16: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:57:20: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:57:24: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:57:28: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:57:32: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:57:36: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:57:40: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:57:44: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:57:48: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:57:52: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:57:54: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:57:57: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:57:59: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:58:00: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:58:00: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:58:00: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:58:04: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:58:08: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:58:12: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:58:12: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:58:16: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:58:20: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:58:24: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:58:28: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:58:32: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:58:36: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:58:39: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:58:39: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:58:43: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:58:47: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:58:51: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:58:53: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:58:53: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:58:53: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:58:57: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:59:01: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:59:05: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:59:09: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:59:13: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:59:17: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:59:17: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:59:17: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:59:21: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:59:25: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:59:29: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:59:29: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:59:30: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:59:34: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:59:38: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:59:41: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:59:41: <info>  New job from eu1.ethermine.org:4444
+2020-11-21 15:59:45: <info>  New job from eu1.ethermine.org:4444
