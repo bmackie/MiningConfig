@@ -1,0 +1,26 @@
+#globalminer ewbf-zcash
+#globalminer zcash-miner
+#globalminer claymore
+globalminer ethminer
+#globalminer sgminer-gm
+maxgputemp 97
+stratumproxy enabled
+proxywallet 0x03Bbc9F655F1DD6110AC0f4655A296AA9DE3EFbE
+proxypool1 pool-usa.ethosdistro.com:5001
+proxypool2 pool-eu.ethosdistro.com:5001 
+#poolemail 
+#globalcore 
+#globalmem 4000
+globalfan 90
+#globalpowertune 12
+autoreboot true
+globaldriver amdgpu
+custompanel markcp123456
+loc 6e65a7 mark01
+loc c39e0b mark02
+loc c39e19 mark03
+loc c39f01 mark04
+loc c39fab mark05
+loc c44e8e mark06
+loc c46bb8 mark07
+loc d9504f mark08
