@@ -6,7 +6,7 @@
 globalminer phoenixminer
 maxgputemp 97
 stratumproxy enabled
-proxywallet 0x03Bbc9F655F1DD6110AC0f4655A296AA9DE3EFbE
+proxywallet 0x1C72C2eCDCD8115Fb44d4a1D66AB0a0a7C1398E6
 proxypool1 pool-usa.ethosdistro.com:5001
 proxypool2 pool-eu.ethosdistro.com:5001 
 #poolemail 
