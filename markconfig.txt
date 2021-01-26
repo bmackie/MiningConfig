@@ -10,7 +10,7 @@ proxypool1 pool-usa.ethosdistro.com:5001
 proxypool2 pool-eu.ethosdistro.com:5001 
 #poolemail 
 #globalcore 
-globalmem 4200
+globalmem 4000
 globalfan 90
 #globalpowertune 12
 autoreboot true
