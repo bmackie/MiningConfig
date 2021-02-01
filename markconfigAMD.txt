@@ -1,8 +1,9 @@
 #globalminer ewbf-zcash
 #globalminer zcash-miner
-globalminer claymore
+#globalminer claymore
 #globalminer ethminer
 #globalminer sgminer-gm
+globalminer phoenixminer
 maxgputemp 97
 stratumproxy enabled
 proxywallet 0x03Bbc9F655F1DD6110AC0f4655A296AA9DE3EFbE
