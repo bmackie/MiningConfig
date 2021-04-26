@@ -1,0 +1,71 @@
+defunct:0
+off:0
+allowed:1
+overheat:0
+pool_info:proxywallet 0x7B7f32C8BF03753219D07c7e59614116FD9FAAA6
+poolemail the.bmackie@gmail.com
+proxypool1 eth-us-west1.nanopool.org:9999
+pool:eth-us-west1.nanopool.org:9999
+miner_version:37.1
+flags:-- algo ethash
+rx_kbps:0.09
+tx_kbps:0.05
+kernel:4.15.12-ethos104
+boot_mode:bios
+uptime:3368
+mac:7c2be108908e
+hostname:08908e
+rack_loc:4
+ip:10.200.100.136
+manu:ZRT
+mobo:zrtk-21611
+uuid:d3c53cd217bdd938fd865b37f3364ecc0f031ef1f0cb9e6cdded08f47dcc8f1c
+biosversion:4.6.5
+lan_chip:Intel Corporation I210 Gigabit Network Connection (rev 03
+load:1.09
+ram:4
+cpu_temp:22
+cpu_name:2 x Intel(R) Celeron(R) CPU 3215U @ 1.70GHz
+rofs:36
+drive_name:Ultra USB 3.0 4C530001180516119315
+freespace:0.8
+temp:22.00 21.00 22.00 22.00 24.00
+version:1.3.3
+miner_secs:1858
+proxy_problem:working
+updating:0
+resolution:1024 768
+config_status:singlerig
+autorebooted:0
+status:possible miner stall: check miner log
+acceptance:accepted
+token:7872015ff4b228d3e639c966514be4b3.5434077519.18818
+driver:amdgpu
+gpus:5
+fanpercent:89 89 89 89 89
+hash:0
+miner:nbminer
+miner_hashes:00.00 00.00 00.00 00.00 00.00
+models:01 Ellesmere RX 570 xxx-xxx-xxx Elpida 
+02 Ellesmere RX 570 xxx-xxx-xxx Elpida
+03 Ellesmere RX 570 xxx-xxx-xxx Elpida
+05 Ellesmere RX 570 xxx-xxx-xxx Samsung
+08 Ellesmere RX 570 xxx-xxx-xxx Samsung
+bioses:xxx-xxx-xxx xxx-xxx-xxx xxx-xxx-xxx xxx-xxx-xxx xxx-xxx-xxx
+default_core:1200 1200 1200 1220 1220
+default_mem:2000 2000 2000 2180 2180
+vramsize:4 4 4 4 4
+core:1168 1168 1168 1126 1126
+mem:300 300 300 300 300
+memstates:0 0 0 0 0
+meminfo:GPU0:01.00.0:Radeon RX 570:xxx-xxx-xxx:Elpida EDW4032BABG:GDDR5:Polaris10
+GPU1:02.00.0:Radeon RX 570:xxx-xxx-xxx:Elpida EDW4032BABG:GDDR5:Polaris10
+GPU2:03.00.0:Radeon RX 570:xxx-xxx-xxx:Elpida EDW4032BABG:GDDR5:Polaris10
+GPU3:05.00.0:Radeon RX 570:xxx-xxx-xxx:Samsung K4G41325FE:GDDR5:Polaris10
+GPU4:08.00.0:Radeon RX 570:xxx-xxx-xxx:Samsung K4G41325FE:GDDR5:Polaris10
+voltage:0.972 0.969 0.966 0.972 0.966
+default_watts:182 182 182 234 234
+watts:32 32 32 28 29
+watt_min:30.00 30.00 30.00 30.00 30.00
+watt_max:264 264 264 264 264
+powertune:5 5 5 5 5                                                       
