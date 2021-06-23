@@ -19,10 +19,10 @@ import sys
 import time
 import datetime
 import json
-import commands
+import subprocess
 import requests
 
-from urllib import urlopen
+from urllib.request import urlopen
 
 
 
@@ -37,7 +37,7 @@ myobj = ()
 
 # ================================   functions  =============================
 def DumpActivity(dumpStr):
-  print dumpStr
+  print(dumpStr)
 
   try:
     # writes input string in a file
@@ -45,12 +45,12 @@ def DumpActivity(dumpStr):
     pLogFile.write("%s @ %s\n" % (dumpStr, str(datetime.datetime.now())))
     pLogFile.close()
   except:
-    print "File write error in - " + gLogFile
+    print("File write error in - " + gLogFile)
 
 def HitWebhook():
   x = requests.post(webHookURL, myobj)
 
-  print x.text
+  print(x.text)
 
 
 
@@ -94,7 +94,7 @@ def ProcessArguments(gotPanelInfo):
 def GetPanelInfo():
   global gRigName, gJsonSite
 
-  commandOutput = commands.getstatusoutput('\grep http /root/url.file')
+  commandOutput = subprocess.getstatusoutput('\grep http /root/url.file')
   if (commandOutput[0] != 0):
     DumpActivity("/root/url.file is not availble")
     return 0
@@ -102,7 +102,7 @@ def GetPanelInfo():
   gJsonSite = commandOutput[1]
   gJsonSite = gJsonSite+"/?json=yes"
 
-  commandOutput = commands.getstatusoutput("\grep hostname /root/stats.file")
+  commandOutput = subprocess.getstatusoutput("\grep hostname /root/stats.file")
   if (commandOutput[0] != 0):
     DumpActivity("/root/stats.file is not avaible")
     return 0
